@@ -1,5 +1,3 @@
-**Source: [https://github.com/go-monk/todo-rest-api-db](https://github.com/go-monk/todo-rest-api-db)**
-
 This post builds on the [previous one](https://github.com/go-monk/todo-rest-api), where we created a simple REST API to manage an in-memory todo list. Keeping data in memory is fine for quick demos or tests, but real-world applications need to persist data so it survives server restarts. In this post, we’ll walk through adding SQLite-based persistence to our todo API.
 
 ## The Problem: In-Memory Storage
